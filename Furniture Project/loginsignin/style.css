@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ccontainer {
+    width: 370px;
+    height: 600px;
+    margin: 50px auto;
+    align-items: center;
+    padding: 10px;
+    padding-top: 112px;
+    border-radius: 14px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.iconuser {
+    padding: 20px;
+    font-size: 22px;
+}
+
+#btn {
+    width: 100%;
+    margin-top: 78px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: ease-in-out 0.6s;
+    color: #dc3545;
+}
+
+#btn:hover {
+    background-color: #dc3545;
+    color: #dae0e5;
+}
+
+.log-in-via {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: right;
+    padding-top: 30px;
+    position: relative;
+    top: 55px;
+}
+
+.log-in-via a {
+    text-decoration: none;
+    color: #dc3545;
+    transition: ease-in-out 0.5s;
+}
+
+.log-in-via a:hover {
+    color: black;
+}
